@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handling & Interactive Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive JavaScript Playground</h1>
+
+        <!-- Button Section -->
+        <button id="changeColorBtn">Click Me to Change Color</button>
+        <button id="textChangeBtn">Click Me to Change Text</button>
+
+        <!-- Hover Effect Section -->
+        <div id="hoverArea">Hover over me!</div>
+
+        <!-- Keypress Detection Section -->
+        <input type="text" id="keypressInput" placeholder="Press any key..." />
+
+        <!-- Image Gallery Section -->
+        <div class="gallery">
+            <img src="https://via.placeholder.com/150" alt="Image 1" id="galleryImage">
+            <button id="nextImageBtn">Next Image</button>
+        </div>
+
+        <!-- Accordion Section -->
+        <div class="accordion">
+            <button class="accordionBtn">Tab 1</button>
+            <div class="accordionContent">This is content for Tab 1</div>
+            <button class="accordionBtn">Tab 2</button>
+            <div class="accordionContent">This is content for Tab 2</div>
+        </div>
+
+        <!-- Form Validation Section -->
+        <form id="myForm">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
